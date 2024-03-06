@@ -1,0 +1,4 @@
+# Files for the replication report of "Measuring the Welfare Effects of Shame and Pride"
+You can find the files I use to produce all results presented in the text of my replication report for "Measuring the Welfare Effects of Shame and Pride", which is accessible [here](https://ideas.repec.org/p/zbw/i4rdps/64.html).
+
+To run them, first download the replication package of the original paper, which you can find [here](https://www.aeaweb.org/articles?id=10.1257/aer.20190433). Unzip the package and move the folders into `replication_code_data`. Follow the readme of the replication package and run the code included in it once. This is important, as it will generate data sets that the analysis of this replication report relies on. Finally, to produce the results of the replication report, `cd` in stata to the root folder and run the file `additional_analysis/master_file.do`. The output will appear in the `figures` and `tables` folders.
